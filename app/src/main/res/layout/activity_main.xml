@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Texto de boas-vindas ao jogo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Jogo da Velha"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Status do jogo (quem está na vez) -->
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogador X na vez"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Status do jogo, mostra qual jogador está na vez"/>
+
+    <!-- GridLayout para o tabuleiro do Jogo da Velha -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center">
+
+        <!-- Botões do tabuleiro do Jogo da Velha -->
+        <Button android:id="@+id/button1" style="@style/TicTacToeButton" android:contentDescription="Botão número 1"/>
+        <Button android:id="@+id/button2" style="@style/TicTacToeButton" android:contentDescription="Botão número 2"/>
+        <Button android:id="@+id/button3" style="@style/TicTacToeButton" android:contentDescription="Botão número 3"/>
+        <Button android:id="@+id/button4" style="@style/TicTacToeButton" android:contentDescription="Botão número 4"/>
+        <Button android:id="@+id/button5" style="@style/TicTacToeButton" android:contentDescription="Botão número 5"/>
+        <Button android:id="@+id/button6" style="@style/TicTacToeButton" android:contentDescription="Botão número 6"/>
+        <Button android:id="@+id/button7" style="@style/TicTacToeButton" android:contentDescription="Botão número 7"/>
+        <Button android:id="@+id/button8" style="@style/TicTacToeButton" android:contentDescription="Botão número 8"/>
+        <Button android:id="@+id/button9" style="@style/TicTacToeButton" android:contentDescription="Botão número 9"/>
+
+    </GridLayout>
+
+    <!-- Botão para reiniciar o jogo -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Jogo"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Botão para reiniciar o jogo"/>
+</LinearLayout>
