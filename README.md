@@ -27,13 +27,8 @@ XML: Used for designing the user interface.
 How to Set Up and Run
 Clone the repository:
 
-bash
-Copiar código
-git clone https://github.com/your-username/your-repo.git
 
-
-
-
+https://github.com/JOSEEUSTAQUIOSILVERI0/app-velha.git
 
 
 
@@ -47,8 +42,8 @@ Dois Jogadores: O jogo é jogado por dois jogadores, com símbolos "X" e "O".
 Interface Simples e Intuitiva: Uma interface de fácil uso para jogadores de todas as idades.
 Indicação de Vitória: Mostra o vencedor ao final de cada partida.
 Botão de Reinício: Permite que os jogadores reiniciem o jogo facilmente para uma nova rodada.
-Captura de Tela
-<img src="caminho/para/imagem.png" alt="Captura de tela do jogo" width="300" />
+
+
 Como Jogar
 Escolha seu símbolo: O jogo alterna automaticamente entre "X" e "O".
 Faça sua jogada: Toque em um dos quadrados na grade para posicionar seu símbolo.
